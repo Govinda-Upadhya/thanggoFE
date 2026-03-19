@@ -1,0 +1,21 @@
+description: Ultralytics YOLO11n-cls model trained on payment
+author: Ultralytics
+date: '2025-09-30T08:10:11.566335'
+version: 8.3.203
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: invalid
+  1: valid
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
+channels: 3
