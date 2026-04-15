@@ -54,8 +54,8 @@ const HomePage: React.FC = () => {
     const res = await axios.get(`${base_url}/users/getgrounds`, {
       withCredentials: true,
     });
-    setGrounds(res.data.ground);
-    console.log(res.data.ground);
+    setGrounds(res.data.grounds);
+    console.log(res.data.grounds);
     setAvailableGroundIds(res.data.ground.map((g) => g._id));
 
     setLoading(false);
