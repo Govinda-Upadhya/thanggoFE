@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
     });
     setGrounds(res.data.grounds);
     console.log(res.data.grounds);
-    setAvailableGroundIds(res.data.ground.map((g) => g._id));
+    setAvailableGroundIds(res.data.grounds.map((g) => g._id));
 
     setLoading(false);
   }
